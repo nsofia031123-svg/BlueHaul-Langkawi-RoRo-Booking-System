@@ -1,194 +1,43 @@
 # 🚢 BlueHaul RoRo Booking System
 
-A web-based ferry and RoRo (Roll-on/Roll-off) booking system developed using PHP and MySQL. The system allows customers to search ferry schedules, book tickets, manage their bookings, and provides administrators with a dashboard to manage schedules, fares, promotions, users, and booking records.
+A web-based ferry and RoRo (Roll-on/Roll-off) booking system built with PHP and MySQL. The system enables customers to search ferry schedules, make bookings, and manage reservations through a user-friendly interface, while providing administrators with tools to manage schedules, fares, users, and bookings.
 
----
+## 🎯 Features
 
-## 📖 Overview
-
-BlueHaul was developed to modernize the ferry booking process by replacing manual reservations with an online platform. It offers a simple and user-friendly interface for customers while providing administrators with tools to efficiently manage the booking system.
-
----
-
-## 🎯 Objectives
-
-- Develop an online ferry booking platform.
-- Simplify the ticket reservation process.
-- Allow customers to manage their bookings online.
-- Provide administrators with an easy-to-use management system.
-- Improve booking efficiency and user experience.
-
----
-
-## ✨ Features
-
-### Customer
-- User Registration & Login
-- Search Ferry Schedules
-- Book One-Way & Return Trips
-- Fare Calculation
-- Apply Promotion Codes
-- View Booking History
-- Manage User Profile
-- Contact Support
-
-### Administrator
-- Dashboard Overview
-- Manage Ferry Schedules
-- Manage Fare Prices
-- Manage Promotions
-- Manage Users
-- View Bookings
-- Generate Reports
-- Monitor Sales Statistics
-
----
+* User Registration & Login
+* Ferry Schedule Search
+* Online Ticket Booking
+* Booking History
+* User Profile Management
+* Admin Dashboard
+* Schedule & Fare Management
+* Promotion Management
+* Booking Reports
 
 ## 👥 User Roles
 
-### Customer
-- Register and login
-- Search available ferry schedules
-- Book ferry tickets
-- View booking history
-- Update profile information
+**Customer**
 
-### Administrator
-- Manage schedules
-- Manage fares
-- Manage promotions
-- Manage users
-- View bookings
-- Generate reports
+* Register & Login
+* Search Ferry Schedules
+* Book Ferry Tickets
+* View Booking History
 
----
+**Administrator**
 
+* Manage Users
+* Manage Schedules & Fares
+* Manage Promotions
+* View Bookings
+* Generate Reports
 
-## 💻 Technologies
+## 💻 Tech Stack
 
-### Frontend
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Font Awesome
-
-### Backend
-- PHP
-
-### Database
-- MySQL
-
-### Development Tools
-- Visual Studio Code
-- XAMPP
-- phpMyAdmin
-
----
-
-## 🗄️ Database
-
-The project uses a MySQL database named:
-
-```sql
-bluehaul
-```
-
-Main tables include:
-
-- admins
-- user
-- booking
-- booking_passenger
-- schedule
-- fare
-- promotion
-- messages
-
----
-
-## 🚀 Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/yourusername/BlueHaul.git
-```
-
-### 2. Move the project
-
-Copy the project folder into your XAMPP `htdocs` directory.
-
-```
-C:\xampp\htdocs\BlueHaul
-```
-
-### 3. Import the database
-
-- Open **phpMyAdmin**
-- Create a database named **bluehaul**
-- Import the provided SQL file
-
-### 4. Configure the database
-
-Update your database connection settings in:
-
-```
-database.php
-```
-
-```php
-$dbHost = "localhost";
-$dbName = "bluehaul";
-$dbUser = "root";
-$dbPass = "";
-```
-
-### 5. Start XAMPP
-
-Start:
-
-- Apache
-- MySQL
-
-### 6. Run the project
-
-```
-http://localhost/BlueHaul
-```
-
----
-
-## 🔮 Future Improvements
-
-- Online payment gateway
-- QR Code ticket generation
-- Email booking confirmation
-- SMS notifications
-- Seat selection
-- Mobile responsive improvements
-- Real-time ferry availability
-- Booking cancellation & refund
-- Enhanced security
-
----
+* **Frontend:** HTML, CSS, Bootstrap, JavaScript
+* **Backend:** PHP
+* **Database:** MySQL
+* **Tools:** XAMPP, phpMyAdmin, Visual Studio Code
 
 ## 👨‍💻 My Contribution
 
-As the developer of this project, I contributed to:
-
-- Designing the booking workflow
-- Developing the customer authentication system
-- Implementing ferry schedule search and booking
-- Building user profile and booking history modules
-- Developing the administrator dashboard
-- Implementing fare and promotion management
-- Designing the MySQL database
-- Connecting frontend and backend components
-- Testing and debugging the system
-
----
-
-## 📄 License
-
-This project was developed for educational purposes as part of a Software Engineering course.
+Designed and developed the booking system, implemented customer and admin modules, designed the MySQL database, integrated frontend and backend components, and tested the overall system.
