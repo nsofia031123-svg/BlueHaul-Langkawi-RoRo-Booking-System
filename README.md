@@ -63,23 +63,6 @@ BlueHaul was developed to modernize the ferry booking process by replacing manua
 
 ---
 
-## 📸 Screenshots
-
-> Create a folder named `screenshots` inside your repository and add your images.
-
-| Page | Preview |
-|------|---------|
-| Home Page | ![](screenshots/home.png) |
-| Login | ![](screenshots/login.png) |
-| Register | ![](screenshots/register.png) |
-| Booking Page | ![](screenshots/booking.png) |
-| Booking History | ![](screenshots/history.png) |
-| User Profile | ![](screenshots/profile.png) |
-| Admin Dashboard | ![](screenshots/admin-dashboard.png) |
-| Schedule Management | ![](screenshots/admin-schedule.png) |
-| Reports | ![](screenshots/admin-report.png) |
-
----
 
 ## 💻 Technologies
 
